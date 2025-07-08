@@ -1,0 +1,1 @@
+**Understand to workflow of django**
