@@ -39,7 +39,7 @@
     <tr>
       {% comment %} <th>{{emp.id}} </th> {% endcomment %}
       <th>{{ forloop.counter }}</th>
-      <td>{{emp.first_name}} {{emp.last_name}} </td>
+      <td><a href ="{% url "employee_details" emp.id %}">{{emp.first_name}} {{emp.last_name}} </td>
       <td> {{emp.designation}} </td>
       <td>{{emp.phone_number}}</td>
     </tr>

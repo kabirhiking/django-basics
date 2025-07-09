@@ -6,7 +6,7 @@ from employees.models import Employee # Import your Employee model
 
 def home(request):
     employees = Employee.objects.all()  # Assuming you have an Employee model
-    print(employees)
+    # print(employees)
     context = {
         'employees' : employees,
     }
