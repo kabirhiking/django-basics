@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="en">
@@ -16,6 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 </head>
 
@@ -27,35 +29,35 @@
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Full Name</th>
+      <th scope="col">Designation</th>
+      <th scope="col">Phone Number</th>
     </tr>
   </thead>
   <tbody>
+    {% for emp in employees %}
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th>{{emp.id}} </th>
+      <td>{{emp.first_name}} {{emp.last_name}} </td>
+      <td> {{emp.designation}} </td>
+      <td>{{emp.phone_number}}</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>John</td>
-      <td>Doe</td>
-      <td>@social</td>
-    </tr>
+    {% endfor %}
+  
+    
   </tbody>
 </table>
-    
+
+<img src="{% static 'images/employee.jpg' %}" alt="Employee Image">
 
    </div>
+
+   {% comment %} {{ employees }}  {% -- This is a comment in Django template syntax --%} AND {{ }} this is the template variable syntax {% endcomment %}
+   
+   {% comment %} {% for employee in employees %} 
+       <p>{{ employee }}</p> 
+   {% endfor %} {% endcomment %}
+
 
 </body>
 
