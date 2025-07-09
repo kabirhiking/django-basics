@@ -37,4 +37,4 @@ Make sure you have these installed:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/kabirhiking/Employee-Directory.git
-   cd django-basics
+   cd Employee-Directory
