@@ -37,7 +37,8 @@
   <tbody>
     {% for emp in employees %}
     <tr>
-      <th>{{emp.id}} </th>
+      {% comment %} <th>{{emp.id}} </th> {% endcomment %}
+      <th>{{ forloop.counter }}</th>
       <td>{{emp.first_name}} {{emp.last_name}} </td>
       <td> {{emp.designation}} </td>
       <td>{{emp.phone_number}}</td>

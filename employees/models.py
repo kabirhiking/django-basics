@@ -11,6 +11,6 @@ class Employee(models.Model):
     created_at = models.DateTimeField(auto_now_add=True) 
     updated_at = models.DateTimeField(auto_now=True)
 
-    # string representation of the model
+    # string representation of the model that means when we print the object, it will show the first name 
     def __str__(self): 
         return self.first_name 
