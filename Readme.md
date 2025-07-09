@@ -2,7 +2,7 @@
 
 **Master Django Fundamentals: Build a Strong Foundation in Python Web Development with Django!**  
 
-It introduces you to Django’s core concepts by building a simple **Employee Directory Website**. You’ll learn how to create web applications using Django’s powerful MVC (Model-View-Controller) architecture and gain hands-on experience with its ORM and database operations.  
+It introduces you to Django’s core concepts by building a  **Employee Directory Website**. You’ll learn how to create web applications using Django’s powerful MVC (Model-View-Controller) architecture and gain hands-on experience with its ORM and database operations.  
 
 ---
 
@@ -17,7 +17,6 @@ In this project, you will:
 - 🛠️ Explore Django Admin and manage your application data.  
 
 
-This project is ideal for beginners who want a practical introduction to Django.  
 
 ---
 
@@ -38,5 +37,5 @@ Make sure you have these installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/kabirhiking/django-basics.git
+   git clone https://github.com/kabirhiking/Employee-Directory.git
    cd django-basics
