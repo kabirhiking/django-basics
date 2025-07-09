@@ -38,3 +38,31 @@ Make sure you have these installed:
    ```bash
    git clone https://github.com/kabirhiking/Employee-Directory.git
    cd Employee-Directory
+2. Create and activate a virtual environment
+
+python -m venv venv
+# Activate on Windows
+venv\Scripts\activate
+# Activate on macOS/Linux
+source venv/bin/activate
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Apply migrations
+
+python manage.py migrate
+
+5. Run the development server
+
+python manage.py runserver
+🖥️ Features
+
+    ✅ User-friendly Employee Directory
+
+    ✅ Dynamic data fetched from the database
+
+    ✅ Django Admin Panel for managing employees
+
+    ✅ Media and static files support
