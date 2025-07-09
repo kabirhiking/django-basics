@@ -57,7 +57,8 @@ python manage.py migrate
 5. Run the development server
 
 python manage.py runserver
-🖥️ Features
+
+## 🖥️ Features
 
     ✅ User-friendly Employee Directory
 
