@@ -12,8 +12,7 @@ In this project, you will:
 
 - 🌐 Build an **Employee Directory Website** with Django.  
 - 🔥 Understand Django’s **MVC architecture**.  
-- 🗂️ Work with **Models, Views, Templates**, and **Static & Media Files**.  
-- 💾 Perform CRUD operations using Django’s **ORM**.  
+- 🗂️ Work with **Models, Views, Templates**, and **Static & Media Files**.    
 - 🛠️ Explore Django Admin and manage your application data.  
 
 
